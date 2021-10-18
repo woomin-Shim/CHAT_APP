@@ -17,7 +17,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "cd .. && cd server && NODE_ENV=production PORT=80 node server.js",
+    "start": "cd .. && cd server && node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
