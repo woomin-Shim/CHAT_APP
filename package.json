@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "cd client && npm run start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && node server.js",
+    "dev:client": "cd client && react-scripts start && yarn start"
   },
   "keywords": [],
   "author": "",
