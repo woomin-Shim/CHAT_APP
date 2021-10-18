@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd client && npm run start",
+    "start": "cd client && npm run constart", 
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev2": "npm run dev:client",
     "dev:server": "cd server && node server.js",
     "dev:client": "cd client && react-scripts start && yarn start"
   },
