@@ -1,4 +1,4 @@
-const exprss = requie('express');
+const exprss = require('express');
 const app = express();
 
 const path = require('path');
