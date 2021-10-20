@@ -12,7 +12,6 @@ const io = socketio(server);
 const router = require('./router');
 const port = process.env.PORT || 5000;
 
-app.use(router);
 app.use(cors());
 
 if(process.env.NODE_ENV === 'production') {  //When running on AWS 
