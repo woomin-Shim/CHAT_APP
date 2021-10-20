@@ -9,7 +9,7 @@ import Messages from '../Messages/Messages';
 import './Chat.css';
 
 let socket;
-const ENDPOINT = 'localhost:80';
+const ENDPOINT = 'http://ec2-18-219-104-122.us-east-2.compute.amazonaws.com/';
 
 
 const Chat = ({ location }) => {
