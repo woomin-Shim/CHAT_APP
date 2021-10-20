@@ -9,7 +9,6 @@ const {addUser, removeUser, getUser, getUsersInRoom} = require('./users.js');
 const app = express();
 const server = require('http').Server(app);
 const io = socketio(server);
-const router = require('./router');
 const port = process.env.PORT || 5000;
 
 app.use(cors());
