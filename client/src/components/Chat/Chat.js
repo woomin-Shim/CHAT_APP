@@ -9,7 +9,7 @@ import Messages from '../Messages/Messages';
 import './Chat.css';
 
 let socket;
-const ENDPOINT = 'localhost:5000';
+const ENDPOINT = 'localhost:80';
 
 
 const Chat = ({ location }) => {
